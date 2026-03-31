@@ -1,73 +1,98 @@
-# Cybersecurity Projects
+# System Compromise Detection Toolkit
 
-Welcome to my cybersecurity projects repository! This repository contains a collection of projects demonstrating various cybersecurity concepts and tools implemented using Python.
+This repository contains a collection of cybersecurity tools and systems developed in Python, focused on network monitoring, intrusion detection, vulnerability analysis, and system security.
 
-## Projects Included
+## Overview
 
-### 1. Network Scanner
-- Discover active devices on a network using ARP scanning.
-- View detailed information about discovered devices (IP addresses and MAC addresses).
-- [Learn more about the Network Scanner](./network-scanner/README.md)
+This project demonstrates the design and implementation of multiple security components that simulate real-world cybersecurity workflows, including traffic analysis, threat detection, and system monitoring.
 
-### 2. Web Application with Flask
-- Implement a simple web application with user authentication using Flask.
-- RESTful API endpoint for user login and authentication.
-- [Learn more about the Web Application](./web-application/README.md)
+The repository combines multiple tools into a unified security toolkit aimed at identifying potential system compromise scenarios.
 
-### 3. Packet Sniffer
-- Sniff packets on a specified network interface using tcpdump.
-- Basic packet capture and analysis.
-- [Learn more about the Packet Sniffer](./packet-sniffer/README.md)
+---
 
-### 4. Password Cracker
-- Basic password cracker using dictionary attack approach.
-- Crack SHA-256 hashed passwords using a list of common passwords.
-- [Learn more about the Password Cracker](./password-cracker/README.md)
+## Key Components
 
-### 5. Encryption/Decryption Tool
-- Encrypt and decrypt messages using the Fernet symmetric encryption algorithm.
-- Generate random encryption keys for secure message handling.
-- [Learn more about the Encryption/Decryption Tool](./ENC-DEC-tool/README.md)
+### Network Monitoring & Analysis
 
-### 6. Intrusion Detection System (IDS)
-- Implement a basic IDS using packet sniffing to monitor network traffic.
-- Detect and display TCP packets on port 80 for intrusion detection.
-- [Learn more about the Intrusion Detection System (IDS)](./intrusion-detection-system/README.md)
+* **Network Scanner**
+  Discovers active devices on a network using ARP scanning and provides IP/MAC mapping.
 
-### 7. Vulnerability Scanner
-- Scan target hosts for open TCP ports using socket programming.
-- Detect and report open ports on specified hosts.
-- [Learn more about the Vulnerability Scanner](./vulnerability-scanner/README.md)
+* **Packet Sniffer**
+  Captures and analyzes network traffic to identify suspicious activity.
 
-### 8. Web Application Firewall (WAF)
-- Basic implementation of a web application firewall (WAF) to detect and prevent common web attacks.
-- [Learn more about the WAF](./web-application-firewall/README.md)
+---
 
+### Threat Detection & Prevention
 
-### 9. Firewall Management Tool
-- Python script for managing firewall settings using the 'ufw' utility on Linux systems.
-  
-### 10. Spyware
-- Record keystrokes, capture system information, clipboard data, and more.
-- Send collected data to a specified server using TCP communication.
-- [Learn more about the Spyware](./spyware/README.md)
+* **Intrusion Detection System (IDS)**
+  Monitors network traffic and detects suspicious patterns (e.g., HTTP traffic anomalies).
 
-### 11. Keylogger
-- Log keystrokes and capture clipboard data.
-- Send captured data to a specified server via TCP connection.
-- [Learn more about the Keylogger](./keylogger/README.md)
+* **Web Application Firewall (WAF)**
+  Filters incoming requests to detect and prevent common web-based attacks.
 
+* **Firewall Manager**
+  Automates firewall rule configuration using UFW for system-level protection.
 
-## Getting Started
-To explore these projects, simply click on the links above to navigate to each project's directory. Each project directory contains a detailed `README.md` file with project overview, features, implementation details, and usage instructions.
+---
 
-Feel free to clone or fork this repository to explore the code, run the scripts, and expand upon these projects according to your learning goals and interests.
+### Vulnerability & Security Testing
 
-## Security and Ethical Guidelines
-- Please use these projects responsibly and in compliance with legal and ethical guidelines.
-- Obtain necessary permissions before scanning networks or conducting security assessments.
-- Protect sensitive information and use strong encryption for data privacy.
+* **Vulnerability Scanner**
+  Identifies open ports and potential attack surfaces on target systems.
 
-For questions, feedback, or collaboration opportunities, feel free to reach out via [email](mailto:manalharoon9@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/manal-haroon-7a3216201/).
+* **Password Cracker (Educational)**
+  Demonstrates dictionary-based attacks on hashed passwords (SHA-256).
 
-Happy exploring and learning in the world of cybersecurity!
+---
+
+### Encryption & Data Security
+
+* **Encryption/Decryption Tool**
+  Implements symmetric encryption using Fernet for secure data handling.
+
+---
+
+### System Monitoring & Behaviour Tracking
+
+* **Keylogger (Educational)**
+  Demonstrates keystroke capture for understanding endpoint vulnerabilities.
+
+* **Spyware Simulation (Educational)**
+  Simulates data exfiltration techniques for security awareness and defense design.
+
+---
+
+## Technical Highlights
+
+* Built using Python with low-level networking and socket programming
+* Applied concepts from network security, ethical hacking, and system monitoring
+* Demonstrates understanding of:
+
+  * Intrusion detection techniques
+  * Network traffic analysis
+  * Vulnerability assessment
+  * Secure data handling
+
+---
+
+## Security & Ethical Use
+
+All tools in this repository are developed strictly for **educational and defensive security purposes**.
+
+* Do not use on systems without permission
+* Intended for learning, testing, and cybersecurity research only
+
+---
+
+## How to Use
+
+Each module contains its own implementation and can be run independently.
+Refer to individual folders for specific instructions.
+
+---
+
+## Author
+
+Manal Haroon
+Full-Stack Developer | Backend & API Engineering | Cybersecurity Focus
+LinkedIn: https://www.linkedin.com/in/manal-haroon-7a3216201/
